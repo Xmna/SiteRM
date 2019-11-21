@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Instituto Gastronômico de Golondrina</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="topo">
+            <div id="barra">
+                <button class="arredonda">Portal do Aluno</button>
+            </div>
+        </nav>
+    </header>
+    <div id="alinha">
+        <img class="displayed" src="assets/img/Goondrina.png" width="250px" height="110px">
+        <ul id="menu">
+            <li id="especial"><button class="arredonda" style="margin-top: 2px;">Inscreva-se</button></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#mod">Modalidade</a></li>
+            <li><a href="#vest">Vestibular</a></li>
+            <li><a href="#grade">Grade</a></li>
+        </ul>
+    </div>
+    <section class="poster">
+        <img src="assets/img/cozinha5.jpg" width="800px" height="400px">
+        <div id="ebook">
+            <h2>Baixe o nosso Ebook</h2>
+            <p>Insira seus dados para receber um Ebook sobre técnicas exclusivas dos nossos Docentes</p><br />
+            <form name='' action='' method='POST'>
+                <input type='text' id='nome' name='nome' value='' placeholder='Seu nome' required /><br />
+                <input type='email' id='email' name='email' value='' placeholder='Seu e-mail' required /><br />
+                <input type='tel' id='numero' name='numero' value='' placeholder='Seu número' required /><br />
+                <input type='submit' name='submit' value='Receber' />
+            </form>
+        </div>
+    </section>
+    <section>
+        <section id="sobre" class="secao">
+            <article>
+                <h2>Sobre o Instituto Gastronômico Golondrina</h2>
+                <p>O Diploma Golondrina é uma formação técnica que oferece um conjunto de conhecimentos
+                    e habilidades através da aplicação das técnicas de base da cozinha portuguesa e espanhola.
+                    O Diploma Golondrina atende às necessidades de qualquer participante que busque
+                    desenvolver as habilidades, o conhecimento e aplicação profissional de Confeitaria,
+                    Cozinha tradicional, Cozinha molecular e Serviços em um programa único de aprendizado orientado
+                    para o mercado de trabalho da gastronomia. </p>
+                <p class="especial"><b>No Diploma Golondrina também conta com um programa
+                        estágio integrado, oferecendo ao
+                        aluno a vivência prática neste segmento. Esse é o seu passaporte para o mercado de trabalho!</b>
+                </p>
+            </article>
+            <div id="videos">
+                <video width="520" height="440" id="vidio" poster="assets/img/poster.png">
+                    <source src="assets/video/apresentação.mp4" type="video/mp4">
+                </video>
+                <div class="alinhavid">
+                    <div onclick="player()" class="img"><img src="assets/img/play.png" width="30px" height="30px"></div>
+                    <div onclick="pausar()" class="img"><img src="assets/img/pause.png" width="30px" height="30px">
+                    </div>
+                    <div onclick="stop()" class="img"><img src="assets/img/stop.png" width="30px" height="30px"></div>
+                </div>
+            </div>
+        </section>
+        <div id="mod" class="secao">
+            <h2 class="topico">Modalidades do Curso</h2>
+            <div class="row">
+                <div>
+                    <img src="assets/img/cozinha1.jpg" height="200px">
+                    <h2 class="topico">Confeitaria</h2>
+                    <p>
+                        A confeitaria é uma atividade gastronômica que existe entre os
+                        homens há muito tempo. Muitas das sobremesas conhecidas hoje em
+                        dia são evoluções modernas de receitas antigas e muito comuns em
+                        diferentes regiões do planeta.
+                    </p>
+                </div>
+                <div>
+                    <img src="assets/img/cozinha2.jpg" height="200px">
+                    <h2 class="topico">Cozinha Tradicional</h2>
+                    <p>
+                        A gastronomia e, em geral, o conjunto das práticas culturais
+                        relacionadas com a alimentaçãorepresentam um importante elemento
+                        de diferenciação social. Em particular, em contexto multicultural,
+                        em que se discutemas estratégias para a gestão da migração e da integração
+                        sociocultural, as práticas alimentares podem tornar-se um valioso
+                        elemento para a educação para a diferença e para a inclusão.
+                    </p>
+                </div>
+                <div>
+                    <img src="assets/img/cozinha3.jpg" height="200px">
+                    <h2 class="topico">Cozinha Molecular</h2>
+                    <p>
+                        Gastronomia molecular é a ciência dedicada ao estudo dos processos
+                        químicos e físicos relacionados à culinária. Estuda os mecanismos
+                        envolvidos nas transformações dos ingredientes no cozimento e investiga
+                        os aspectos sociais, artísticos da culinária e gastronomia.
+                    </p>
+                </div>
+            </div>
+            <button class="test"><a href="modalidade.html">Saber Mais</a></button>
+        </div>
+        <div id="vest" class="secao">
+            <h2>Vestibular</h2>
+            <p>
+                O vestibular no Instituto Gastronômico Golondrina é como o vestibular da modalidade presencial.
+                O candidato deverá escolher o curso e polo de atendimento presencial que for mais
+                conveniente e agendar uma prova, que é composta por uma redação.
+            </p>
+            <p>
+                No Instituto Golondrina a inscrição para a prova pode ser agendada no momento em que realizar a
+                inscrição no
+                website, pelo telefone ou presencialmente no polo escolhido. Para a realização da prova, o
+                candidato deverá portar o RG ou documento de identificação com foto.
+            </p>
+            <p>
+                A prova será submetida a correção e o candidato receberá um contato informando sobre o resultado
+                do vestibular em até 5 dias. Se ainda não se inscreveu clique em Inscreva-se.
+            </p>
+            <button class="test"><a href="vestibular.html"></a>Inscreva-se</button>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <p>Seja um colaborador - Quem somos - Email - Facebook</p>
+            <small>Copyright © 2019 </small>
+        </div>
+    </footer>
+    <script src="assets/js/scroll.js"></script>
+    <script type="text/javascript" src="assets/js/video.js"></script>
+</body>
+
+</html>

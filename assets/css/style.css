@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Belleza&display=swap');
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(244, 238, 249);
+}
+
+.topo {
+  background-color: #252837;
+  padding-bottom: 50px;
+}
+
+.topo a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+
+#barra {
+  margin-top: -31px;
+  float: right;
+  padding-right: 8px;
+  text-decoration: none;
+  color: white;
+}
+
+.arredonda {
+  color: rgb(244, 238, 249);
+  background-color: #d89d56;
+  border: none;
+  height: 40px;
+  line-height: 30px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-top: 35px;
+  font-family: 'Belleza', sans-serif;
+}
+
+.menu {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  border: 1px solid transparent;
+  float: left;
+}
+
+.menu li {
+  position: relative;
+  float: left;
+  border-right: 1px solid transparent;
+}
+
+.menu li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+
+.menu li ul {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background-color: #fff;
+  display: none;
+}
+
+/* Estilização do dropdonw*/
+
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  padding-left: 600px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+#menu li {
+  float: left;
+  font-size: 20px;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: #4c4844;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-family: 'Belleza', sans-serif;
+  font-size: 24px;
+}
+
+#alinha {
+  text-align: right;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+img.displayed {
+  display: block;
+  margin: 0;
+  position: absolute;
+  top: 17.5%;
+  transform: translate(0, -50%);
+  padding-left: 70px;
+}
+
+.poster {
+  background-color: #6d9e97;
+  padding-bottom: 33px;
+}
+
+#ebook {
+  margin: 50px;
+  width: 100%;
+  max-width: 300px;
+  background: rgb(244, 238, 249);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: left;
+  font-family: 'Arial, Times, serif';
+  font-size: 16px;
+  color: #666;
+  margin-top: -380px;
+  margin-right: 5px;
+  margin-left: 900px;
+  margin-bottom: 0px;
+}
+
+#ebook h2 {
+  margin: 0px;
+  color: #252837;
+  font-size: 20px;
+  font-family: 'Belleza', sans-serif;
+}
+
+#ebook p {
+  margin: 0px;
+  color: #252837;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=number], input[type=file], input[type=time], textarea, select {
+  width: 100%;
+  max-width: 280px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px #CCC solid;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+input[type=submit] {
+  margin: 0px;
+  background: #252837;
+  padding: 10px 20px;
+  border: 1px #252837 solid;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #FFF;
+}
+
+.secao, h2 {
+  font-family: 'Belleza', sans-serif;
+  color: #252837;
+  text-align: center;
+  font-size: 26px;
+  padding-top: 25px;
+}
+
+.secao, p {
+  font-size: 19px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: justify;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#videos {
+  padding-left: 200px;
+}
+
+.alinhavid {
+  padding-left: 225px;
+}
+
+.img {
+  display: inline;
+}
+
+#sobre {
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#mod {
+  background-color: #6d9e97;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 30px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+.row p{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  font-size: 14px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#vest{
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 30px;
+}
+#grade{
+  background-color: #6d9e97;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 30px;
+}
+#grade h4{
+  font-family: 'Belleza', sans-serif; 
+  font-size: 19px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+#grade h2{
+  color: white;
+}
+.grade-grade{
+  padding-right: 40px;
+  padding-left: 40px;
+  color: white;
+}
+
+.test{
+  margin-top: 2px; 
+  margin-left: 400px;
+  color: rgb(244, 238, 249);
+  background-color: #d89d56;
+  border: none;
+  height: 40px;
+  line-height: 30px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-top: 35px;
+  font-family: 'Belleza', sans-serif;
+  
+}
+
+footer{
+  margin: 0px;
+  padding: 10px;
+  margin-bottom: -30px;
+  background-color:  #252837;
+  font-size: 0.9em;
+  color: white;
+  font-family: 'Belleza','sans-serif';
+  
+}
+footer p {
+  font-family: 'Belleza','sans-serif';
+  padding-left: 450px;
+}
+.disc{
+  font-size: 24px;
+}
+small{
+  padding-left: 600px;
+}
+.topico{
+  color: white;
+}
+.especial{
+  font-family: 'Belleza','sans-serif';
+}
+.trad{
+  padding-left: 225px;
+}
+#conteudo{
+  padding-left: 250px;
+  font-family: 'Belleza', sans-serif;
+}

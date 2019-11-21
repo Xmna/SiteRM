@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Instituto Gastronômico de Golondrina</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="topo">
+            <div id="barra">
+                <button class="arredonda">Portal do Aluno</button>
+            </div>
+        </nav>
+    </header>
+    <div id="alinha">
+        <img class="displayed" src="assets/img/Goondrina.png" width="250px" height="110px">
+        <ul id="menu">
+            <li id="especial"><button class="arredonda" style="margin-top: 2px;">Inscrever</button></li>
+            <li><a href="index.html">Sobre Nós</a></li>
+            <li><a href="modalidade.html">Modalidade</a></li>
+            <li><a href="vestibular.html">Vestibular</a></li>
+            <li><a href="grade.html">Grade</a></li>
+        </ul>
+    </div>
+    <section class="poster">
+        <img src="assets/img/cozinha5.jpg" width="800px" height="400px">
+        <div id="ebook">
+            <h2>Baixe o nosso Ebook</h2>
+            <p>Insira seus dados para receber um Ebook sobre técnicas exclusivas dos nossos Docentes</p><br />
+            <form name='' action='' method='POST'>
+                <input type='text' id='nome' name='nome' value='' placeholder='Seu nome' required /><br />
+                <input type='email' id='email' name='email' value='' placeholder='Seu e-mail' required /><br />
+                <input type='tel' id='numero' name='numero' value='' placeholder='Seu número' required /><br />
+                <input type='submit' name='submit' value='Receber' />
+            </form>
+        </div>
+    </section>
+    <section>
+        <section id="sobre" class="secao">
+            <article>
+                <h2>Vestibular</h2>
+                <img src="assets/img/cozinha3.jpg" width="500px" height="250px" class="trad">
+                <p>
+                    O vestibular no Instituto Gastronômico Golondrina é como o vestibular da modalidade presencial.
+                    O candidato deverá escolher o curso e polo de atendimento presencial que for mais
+                    conveniente e agendar uma prova, que é composta por uma redação.
+                </p>
+                <p>
+                    No Instituto Golondrina a inscrição para a prova pode ser agendada no momento em que realizar a
+                    inscrição no
+                    website, pelo telefone ou presencialmente no polo escolhido. Para a realização da prova, o
+                    candidato deverá portar o RG ou documento de identificação com foto.
+                </p>
+            </article>
+            <h2>Primeiro desejamos os seus primeiros dados para efetuar a inscrição.</h2>
+            <div id="conteudo">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label for="rname">
+                                    <h6>Nome Completo</h6>
+                                </label></td>
+                            <td><input type="text" placeholder="Ex. Maria da Silva Sauro" name="rname" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="categ">
+                                    <h6>Conte-nos sua situação</h6>
+                                </label></td>
+                            <td><select name="categ" form="categ">
+                                    <option value="">Quero fazer o Vestibular</option>
+                                    <option value="">Quero usar a nota do ENEM</option>
+                                    <option value="">Já sou graduado e desejo uma pós</option>
+                                    <option value="">Quero Treinar</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td><label for="prep">
+                                    <h6>Email</h6>
+                                </label></td>
+                            <td><input type="email" name="email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="cpf">
+                                    <h6>CPF</h6>
+                                </label></td>
+                            <td><input type="text" placeholder="xxx.xxx.xxx-xx" name="cpf" required></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <button class="test">Continuar</button>
+            <p>                       </p>
+        </section>
+    </section>
+    <footer>
+        <div class="footer">
+            <p>Seja um colaborador - Quem somos - Email - Facebook</p>
+            <small>Copyright © 2019 </small>
+        </div>
+    </footer>
+    <script src="assets/js/scroll.js"></script>
+    <script type="text/javascript" src="assets/js/video.js"></script>
+</body>
+
+</html>
